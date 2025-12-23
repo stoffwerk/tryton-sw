@@ -7585,10 +7585,9 @@
         </record>
         <record id="account_5349" model="account.account.template">
             <field name="name">Wareneingang ohne Vorsteuerabzug</field>
-            <field name="parent" ref="account_de_skr04_I.view_income_1060"/>
+            <field name="parent" ref="view_income_1060"/>
             <field name="code">5349</field>
-            <field name="type" ref="account_de_skr04_I.type_4120"/>
+            <field name="type" ref="type_4120"/>
         </record>
-
     </data>
 </tryton>
