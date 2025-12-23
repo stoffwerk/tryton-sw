@@ -48,7 +48,7 @@ tests_require = []
 
 setup(name=name,
     version=version,
-    description='German Accounting based on SKR04',
+    description='German accounting module based on SKR04',
     long_description=read('README.rst'),
     author='Phil Markus, Stoffwerk',
     author_email='pm@dasstoffwerk.de',

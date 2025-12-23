@@ -1,0 +1,2 @@
+[trytond.modules]
+sw_account_de_skr04 = trytond.modules.sw_account_de_skr04
