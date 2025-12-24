@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="/form/notebook/field[@name='unit']" position="after">
+        <label name="url"/>
+        <field name="url"/>
+    </xpath>
+</data>
