@@ -1,6 +1,7 @@
-from trytond.model import fields
+from trytond.model import ModelSQL, fields
 from trytond.pool import PoolMeta
 
-class ProductSupplier(metaclass=PoolMeta):
+class ProductSupplier(ModelSQL, metaclass=PoolMeta):
     __name__ = 'purchase.product_supplier'
-    url = fields.Char("Url", translate=False)
+    
+    url = fields.Char("URL")

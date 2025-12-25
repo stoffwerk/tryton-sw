@@ -5,13 +5,11 @@ MANIFEST.in
 README.rst
 __init__.py
 product.py
-purchase.py
 purchase.xml
 setup.py
 tryton.cfg
 ./__init__.py
 ./product.py
-./purchase.py
 ./purchase.xml
 ./tryton.cfg
 ./tests/__init__.py
